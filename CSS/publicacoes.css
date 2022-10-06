@@ -1,0 +1,103 @@
+body {
+  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+  margin: 0px;
+  color: #2d0202;
+  background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.cabecalho {
+  max-width: 1200px;
+  padding: 20px 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cabecalho-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cabecalho-menu a {
+  font-size: 1.5rem;
+  line-height: 1.3;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #b70808;
+  display: block;
+}
+
+.conteudo {
+  max-width: 1200px;
+  padding: 20px 20px;
+  margin: 0 auto;
+}
+
+.conteudo h1 {
+  font-size: 2rem;
+  color: #2d0202;
+  border-style: solid;
+  border-bottom-width: 0px;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 10px;
+  padding-left: 10px;
+  border-color: #b70808;
+  margin-bottom: 15px;
+}
+
+.footer {
+  background-color: black;
+}
+
+.footer-container {
+  max-width: 1200px;
+  padding: 120px 20px 60px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: center;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  color: #fff;
+}
+
+.footer-contato li {
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.1;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.footer-container a {
+  color: #fff;
+}
+
+.footer-direitos {
+  font-size: 1.125rem;
+  color: #fff;
+}

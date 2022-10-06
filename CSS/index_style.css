@@ -1,0 +1,242 @@
+body {
+  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+  margin: 0px;
+  color: #fff;
+  background-color: black;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.cabecalho {
+  max-width: 1200px;
+  padding: 20px 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cabecalho-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cabecalho-menu a {
+  font-size: 1.5rem;
+  line-height: 1.3;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+.introducao {
+  position: relative;
+}
+
+.introducao .detalhe1 {
+  position: absolute;
+  left: 140px;
+  top: 20px;
+}
+
+.introducao .detalhe2 {
+  position: absolute;
+  left: -20px;
+  bottom: 20px;
+}
+
+.introducao {
+  max-width: 1200px;
+  padding: 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 150px;
+  align-items: center;
+}
+
+.introducao h1 {
+  display: inline-block;
+  font-size: 3rem;
+  padding: 10px 20px;
+  background-color: #b70808;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.introducao p {
+  color: #fff;
+  font-size: 2rem;
+  max-width: 20ch;
+}
+
+.contextualizacao {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 150px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.conteudo-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  margin-bottom: 60px;
+  color: #fff;
+}
+
+.topicos {
+  padding: 20px;
+  gap: 10px 20px;
+  background-color: #b70808;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.topicos-titulo {
+  margin-bottom: 10px;
+  font-size: 1.125rem;
+  line-height: 1.1;
+  font-weight: bold;
+  color: #fff;
+}
+
+.topicos-texto {
+  font-size: 1rem;
+  color: #fff;
+  line-height: 1.4;
+}
+
+.futebol {
+  background-color: #fff;
+}
+
+.futebol-container {
+  max-width: 1200px;
+  padding: 80px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+}
+
+.futebol-titulo {
+  color: #b70808;
+  font-size: 9rem;
+  word-break: break-all;
+}
+
+.futebol-titulo span {
+  color: #2d0202;
+}
+
+.futebol-texto {
+  color: #2d0202;
+  font-size: 2rem;
+  line-height: 1.33;
+  margin-top: 60px;
+}
+
+.torneios {
+  background-color: #fff;
+  color: black;
+}
+
+.torneios-container {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+}
+
+.torneios-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 60px;
+  justify-content: space-between;
+}
+
+.torneios-disputa {
+  flex: 1;
+  background-color: #2d0202;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.torneios-campeonato {
+  margin-bottom: 30px;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.torneios-ano {
+  color: #ccc;
+}
+
+.torneios-titulo {
+  color: #fff;
+  font-size: 1.135rem;
+  line-height: 1.4;
+  margin-bottom: 30px;
+  position: relative;
+  flex: 1;
+}
+
+.footer {
+  background-color: black;
+}
+
+.footer-container {
+  max-width: 1200px;
+  padding: 120px 20px 60px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: center;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  color: #fff;
+}
+
+.footer-contato li {
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.1;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.footer-container a {
+  color: #fff;
+}
+
+.footer-direitos {
+  font-size: 1.125rem;
+  color: #fff;
+}

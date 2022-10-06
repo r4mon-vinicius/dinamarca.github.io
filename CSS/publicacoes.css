@@ -50,6 +50,7 @@ img {
   max-width: 1200px;
   padding: 20px 20px;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .conteudo h1 {
@@ -63,6 +64,24 @@ img {
   padding-left: 10px;
   border-color: #b70808;
   margin-bottom: 15px;
+}
+
+.conteudo-principal {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.conteudo-texto {
+  font-size: 1.25rem;
+  color: #2d0202;
+}
+
+.conteudo-autor {
+  font-size: 1rem;
 }
 
 .footer {
